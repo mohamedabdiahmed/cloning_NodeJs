@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    background-color:rgb(1, 18, 35);
+}
+.header
+{
+    font-size: 18px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(29, 41, 77);
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgb(225, 224, 224);
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.icons{
+    display: flex;
+}
+.logo img{
+    width: 100px;
+}
+.node{
+    text-align: center;
+    transform: translateY(50px);
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.downNode{
+    text-align: center;
+    font-size: 33px;
+    transform: translateY(100px);
+    color: white;
+}
+.Recommended,.current{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    transform: translateX(400px)translateY(110px);
+    background-color: rgb(3, 160, 6);
+    color: white; 
+    font-size: 22px;
+    border: 0;
+    border-radius: 5px;
+    gap:100px
+}
+.Recommended:hover,.current:hover{
+    background-color:rgb(50, 169, 52);
+    
+}
+
+.btns{
+    display: flex; 
+    gap: 24px;
+}
+.links{
+    display: flex;
+    color: white;
+    gap: 4px;
+    transform: translateX(400px) translateY(120px);
+    font-size: 18px;
+}
+.links a{
+    color: rgb(3, 160, 6);;
+}
+.current{
+    padding: 10px 30px;
+}
+.info{
+    text-align: center;
+    transform: translateY(160px);
+    font-size: 19px;
+    color: white;
+}
+.info span:hover{
+    background-color:rgb(3, 160, 6);
+    padding: 4px;
+    border-radius: 5px;
+    transition: 0.7s all ease;
+}
+
+.footer{
+    background-color: rgb(29, 41, 77);
+    /* padding: 40px; */
+    padding: 20px;
+    height: 20vh;
+    transform: translateY(255px);
+}
+.footer,.ft{
+    color: white;
+}
+.ft a{
+    color: rgb(4, 166, 220);
+    text-decoration: none;
+}
+.ft a:hover{
+    color: rgb(4, 166, 220);
+    text-decoration: underline;
+}
+.ft2{
+    color: rgb(4, 166, 220);
+    text-align: center;
+    transform: translateY(20px);
+    text-transform: capitalize;
+}
